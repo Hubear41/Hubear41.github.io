@@ -46,6 +46,7 @@
       padding: 25px;
       text-align: center;
       background-color: $white;
+      box-shadow: 2px 2px 0 1px lightgray;
       h4 {
         margin: 0;
         text-transform: none;
@@ -56,6 +57,9 @@
         margin: 0;
         @include serif-font;
       }
+    }
+    .bottom-caption {
+      border-top: 1px solid grey;
     }
   }
   * {
@@ -137,4 +141,17 @@
       }
     }
   }
+}
+
+.demo-gif {
+  min-width: 100%;
+  box-shadow: 2px 2px 0 1px lightgray;
+}
+
+.live-site-link {
+  background-color: black;
+}
+
+.github-repo-link {
+  background-color: blue;
 }
