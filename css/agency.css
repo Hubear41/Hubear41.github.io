@@ -14,15 +14,15 @@ p {
 }
 
 a {
-  color: #fed136;
+  color: #845eee;
 }
 
 a:hover {
-  color: #fec503;
+  color: #6130e9;
 }
 
 .text-primary {
-  color: #fed136 !important;
+  color: #845eee !important;
 }
 
 h1,
@@ -61,12 +61,12 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #fed136;
+  background: #845eee;
   text-shadow: none;
 }
 
 ::selection {
-  background: #fed136;
+  background: #845eee;
   text-shadow: none;
 }
 
@@ -93,13 +93,13 @@ img::-moz-selection {
 }
 
 .btn-primary {
-  background-color: #fed136;
-  border-color: #fed136;
+  background-color: #845eee;
+  border-color: #845eee;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
+  background-color: #6a3bea !important;
+  border-color: #6a3bea !important;
   color: white;
 }
 
@@ -119,17 +119,17 @@ img::-moz-selection {
   text-transform: uppercase;
   color: white;
   border: 0;
-  background-color: #fed136;
+  background-color: #845eee;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand {
-  color: #fed136;
+  color: #845eee;
   font-family: 'Kaushan Script', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-  color: #fec503;
+  color: #6130e9;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -142,7 +142,7 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #fed136;
+  color: #845eee;
 }
 
 @media (min-width: 992px) {
@@ -176,7 +176,15 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background: radial-gradient(circle, transparent 40%, var(--color-v) 75%), -webkit-gradient(linear, left top, right top, from(var(--color)), to(var(--color))), var(--image2);
+  background: radial-gradient(circle, transparent 40%, var(--color-v) 75%), linear-gradient(to right, var(--color), var(--color)), var(--image2);
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: var(--blend-top, normal), var(--blend-bottom, saturation), normal;
+  --image: url(https://images.unsplash.com/photo-1519522800923-7999b95cb3c6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=81c09a0eae279992234d18e52c8857fa);
+  --image2: url('../img/header-bg.jpg');
+  --color-v: black;
+  --color: purple;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -225,6 +233,10 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.shadowed-header {
+  text-shadow: 2px 2px 6px black;
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
@@ -260,7 +272,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(132, 94, 238, 0.9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -478,7 +490,7 @@ header.masthead .intro-text .intro-heading {
   color: white;
   border: 7px solid #e9ecef;
   border-radius: 100%;
-  background-color: #fed136;
+  background-color: #845eee;
 }
 
 .timeline > li .timeline-image h4 {
@@ -620,6 +632,12 @@ header.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+.about-row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 section#contact {
   background-color: #212529;
   background-image: url("../img/map-image.png");
@@ -649,7 +667,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-  border-color: #fed136;
+  border-color: #845eee;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
@@ -717,5 +735,5 @@ ul.social-buttons li a {
 }
 
 ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-  background-color: #fed136;
+  background-color: #845eee;
 }

@@ -2,7 +2,24 @@
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url('../img/header-bg.jpg');
+  // background-image: url('../img/header-bg.jpg');
+
+  background:
+  radial-gradient(circle, transparent 40%, var(--color-v) 75%),
+    linear-gradient(to right, var(--color), var(--color)),
+    var(--image2);
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: 
+    var(--blend-top, normal),
+    var(--blend-bottom, saturation),
+    normal;
+  
+  --image: url(https://images.unsplash.com/photo-1519522800923-7999b95cb3c6?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=400&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=81c09a0eae279992234d18e52c8857fa);
+  --image2: url('../img/header-bg.jpg');
+  
+  --color-v: black;
+  --color: purple; //hsla(343,100%,50%,.5);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -47,4 +64,8 @@ header.masthead {
       }
     }
   }
+}
+
+.shadowed-header {
+  text-shadow: 2px 2px 6px black;
 }

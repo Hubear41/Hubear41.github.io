@@ -62,20 +62,52 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-        <div class="intro-heading text-uppercase">Dennis Hu</div>
-        <div class="intro-lead-in">Software Engineer</div>
-        <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a> -->
+        <div class="intro-heading text-uppercase shadowed-header">Dennis Hu</div>
+        <div class="intro-lead-in shadowed-header">Software Engineer</div>
+        <!-- <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Tell Me More</a> -->
       </div>
     </div>
   </header>
 
-  <!-- Services -->
+  <!-- About -->
+  <section class="bg-light page-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">About</h2>
+          <h3 class="section-subheading text-muted">A few things about me</h3>
+        </div>
+      </div>
+      <div class="row about-row text-center">
+        <div class="portfolio-caption col-lg-6 col-md-12">
+          <p class='text-muted'>
+            I first found my passion for software engineering when I wrote my first graphic calculator script in high school. After
+            college, I brought my experience over to the film industry as a freelance sound editor, gaining a deeper understanding
+            of collaborative workflows as well as honing my ability to learn multiple new editing softwares including ProTools. 
+            
+            I even worked with colleges such as New York University and the Pratt Institute to upgrade their audio software and
+            equipment and to ensure that their students learned the best practices.
+          </p>
+        </div>
+        <div class="portfolio-caption col-lg-6 col-md-12">
+          <img class="rounded-pill img-fluid" src="img/about/Dennis_Hu.jpeg" alt="Dennis Hu">
+          <ul class="list-inline">
+            <li><a href="mailto:ddh241@gmail.com"><i class="fas fa-envelope"></i> — ddh241@gmail.com</a></li> 
+            <li><a href="https://www.linkedin.com/in/dennisdhu/"><i class="fab fa-linkedin-in"></i> — Linkedin</a></li> 
+            <li><a href="https://github.com/Hubear41"><i class="fab fa-github"></i> — Github</a></li>
+            <li><a href="https://angel.co/dennis-hu-1"><i class="fab fa-angellist"></i> — Angellist</a></li>
+            <li><a href="docs/Resume_DennisHu.pdf"><i class="far fa-file-pdf"></i> — resume</a></li>
+          </ul>
+        </div>  
+      </div>
+  </section>
+
+  <!-- Skills (Services) -->
   <section class="page-section" id="services">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Skills</h2>
-          <!-- <h3 class="section-subheading text-muted">Languages that I know</h3> -->
         </div>
       </div>
       <div class="row text-center">
@@ -98,7 +130,7 @@
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas devicon-javascript-plain fa-stack-1x fa-inverse icon-adjust"></i>
           </span>
-          <h4 class="service-heading">Javascript</h4>
+          <h4 class="service-heading">JavaScript</h4>
         </div>
         <div class="col-md-6 col-lg-2">
           <span class="fa-stack fa-4x">
@@ -187,12 +219,9 @@
             <h4>Hu'sflix</h4>
             <p class="text-muted">A single-page Netflix clone where users can watch videos that have been organized by genre.</p>
           </div>
-          <div class="portfolio-caption bottom-caption">
-            <p class="text-muted">bullet points</p>
-          </div>
         </div>
         <div class="col-md-6 col-sm-6 portfolio-item">
-          <a class="portfolio-link"> <!-- data-toggle="modal" href="#portfolioModal2" -->
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
@@ -206,93 +235,9 @@
             <h4>Sketchy Magic</h4>
             <p class="text-muted">A top-down tower defense game that focuses on casting spells by drawing different shapes to knock out incoming bandits.</p>
           </div>
-          <div class="portfolio-caption bottom-caption">
-            <p class="text-muted">bullet points</p>
-          </div>
         </div>
       </div>
     </div>
-  </section>
-
-  <!-- About -->
-  <section class="page-section" id="about">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About</h2>
-          <h3 class="section-subheading text-muted">I like to code and to eat.</h3>
-        </div>
-      </div>
-      <!-- <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2009-2011</h4>
-                  <h4 class="subheading">Our Humble Beginnings</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>March 2011</h4>
-                  <h4 class="subheading">An Agency is Born</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>December 2012</h4>
-                  <h4 class="subheading">Transition to Full Service</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 class="subheading">Phase Two Expansion</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div> -->
   </section>
 
   <!-- Contact -->
@@ -301,7 +246,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Contact Me</h2>
-          <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+          <h3 class="section-subheading text-muted">I am always looking for more opportunities</h3>
         </div>
       </div>
       <div class="row">
@@ -345,22 +290,22 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-4">
-          <span class="copyright">Copyright &copy; Your Website 2019</span>
+          <span class="copyright">Copyright &copy; Dennis Hu 2019</span>
         </div>
         <div class="col-md-4">
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-twitter"></i>
+              <a href="https://github.com/Hubear41">
+                <i class="fab fa-github"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
+              <a href="https://angel.co/dennis-hu-1">
+                <i class="fab fa-angellist"></i>
               </a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.linkedin.com/in/dennisdhu">
                 <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
@@ -396,14 +341,29 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">Hu'sflix</h2>
+                <p class="item-intro text-muted">A single-page Netflix clone where users can watch videos that have been organized by genre.</p>
+                <img class="img-fluid d-block mx-auto" src="img/projects/husflix-demo.gif" alt="Hu'sflix">
+                <span class='section-subheading font-weight-bold'>Accomplishments</span>  
+                <p>
+                  Developed a custom video player using JavaScript and HTML5 video manipulation to create an interactive viewing
+                  experience, allowing users to manipulate videos by updating the frontend state for effect volume, time, and fullscreen.
+                </p>
+                <p>
+                  Incorporated AWS S3 into the Rails backend to store video and image assets to keep loading times consistent in
+                  production and provide a viewing experience without unexpected pauses or slow buffering speeds.
+                </p> 
+                <p>
+                  Designed a custom user authentication error handling that checks whether or not the username or password input fields in
+                  the frontend are valid while also checking if the user and password combination exists in the database.
+                </p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
+                  <li class="font-weight-bold">Technologies:</li>
+                  <li>Ruby, Rails, PostgreSQL, Javascript, React.js, Redux, HTML5, Webpack, AWS, Heroku, CSS3</li>
+                  <br>  
+                  <li class="font-weight-bold">Links:</li>
+                  <li>Live Site: <a href="http://hu-sflix.herokuapp.com">http://hu-sflix.herokuapp.com</a></li>  
+                  <li>Github: <a href="https://github.com/Hubear41/Hu-sflix">https://github.com/Hubear41/Hu-sflix</a></li>  
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
@@ -430,14 +390,27 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Project Name</h2>
-                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                <h2 class="text-uppercase">Sketchy Magic</h2>
+                <p class="item-intro text-muted">A top-down tower defense game that focuses on casting spells by drawing different shapes to knock out incoming bandits.</p>
+                <img class="img-fluid d-block mx-auto" src="img/projects/sketchy-magic-demo.gif" alt="">
+                <span class='section-subheading font-weight-bold'>Accomplishments</span>
+                <p>
+                  Leveraged Paper.js to add event-triggers for mouse down, mouse move, and mouse up to detect player input ( drawn vector
+                  objects ) and to enhance vector calculation through its vector geometry API.                </p>
+                <p>
+                  Developed a shape detection algorithm that takes in a hand-drawn vector object from the player and converts it to one of
+                  the game’s recognized shapes ( lines, triangles ) using angle and vector calculations within a margin of error.
+                </p>
+                <p>
+                  Formulated layers of gaming complexity by introducing increasingly difficult enemy amounts.
+                </p>
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Explore</li>
-                  <li>Category: Graphic Design</li>
+                  <li class="font-weight-bold">Technologies:</li>
+                  <li>JavaScript, Paper.js, HTML5, CSS3</li>
+                  <br>
+                  <li class="font-weight-bold">Links:</li>
+                  <li>Live Site: <a href="https://hubear41.github.io/Sketchy-Magic/">https://hubear41.github.io/Sketchy-Magic/</a></li>
+                  <li>Github: <a href="https://github.com/Hubear41/Sketchy-Magic">https://github.com/Hubear41/Sketchy-Magic</a></li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fas fa-times"></i>
