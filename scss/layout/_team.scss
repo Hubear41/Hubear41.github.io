@@ -20,3 +20,24 @@
 .about-row {
   align-items: center;
 }
+
+.personal-links-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+}
+
+.personal-links-list li {
+  font-size: 16px;
+}
+
+.personal-links-list a {
+  outline: none;
+}
+
+// .about-desc {
+//   align-items: center;
+// }
