@@ -53,13 +53,15 @@ h6 {
 
 // Highlight color customization
 ::-moz-selection {
-  background: $primary;
+  background: $gray-400;
   text-shadow: none;
+  color: $primary;
 }
 
 ::selection {
-  background: $primary;
+  background: $gray-400;
   text-shadow: none;
+  color: $primary;
 }
 
 img::selection {

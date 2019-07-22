@@ -61,13 +61,15 @@ h6 {
 }
 
 ::-moz-selection {
-  background: #845eee;
+  background: #ced4da;
   text-shadow: none;
+  color: #845eee;
 }
 
 ::selection {
-  background: #845eee;
+  background: #ced4da;
   text-shadow: none;
+  color: #845eee;
 }
 
 img::-moz-selection {
